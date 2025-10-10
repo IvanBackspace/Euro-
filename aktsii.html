@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Name</title>
+    <meta name='keywords' content='' />
+    <meta name='description' content='' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="assets/css/build/build/swiper.css">
+    <link rel="stylesheet" href="assets/css/build/build/fancybox.min.css">
+    
+    <script src="assets/js/build/fancybox.min.js" defer></script>
+    
+    <script src="assets/js/request.js" defer></script>
+    <script src="assets/js/sourcebuster.min.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css"></head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top-container container">
+                <div class="header__top-item">
+                    <a href="/" class="header__logo logo">
+                        <picture class="logo__picture">
+                            <img src="assets/img/logo/logo.svg" alt="" class="logo__img">
+                        </picture>
+                        <p class="header__logo-text">МЕДИЦИНСКАЯ КЛИНИКА</p>
+                    </a>
+                    <div class="header__top-item-wrapper">
+                        <button class="header__address popup-btn" data-path="city">
+                            <img src="assets/img/icons/local.svg" alt="">
+                            <p class="header__address-text">
+                                <span>Адрес</span>Краснодар, улица Красная, 103
+                            </p>
+                        </button>
+                        <a href="tel:89282923058" class="header__phone-mobile"></a>
+                        <a class="header__mobile-tel" href="tel:88633081539">
+                            <picture class="header__mobile-icon">
+                                <source srcset="assets/img/icons/phone.svg" type="image/svg+xml">
+                                <img src="assets/img/icons/phone.png" alt="">
+                            </picture>
+                        </a>
+                        <button class="header__open-menu open-menu">
+                            <span class="header__open-span"></span>
+                            <span class="header__open-span header__open-span--centr"></span>
+                            <span class="header__open-span"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="header__top-item">
+                    <div class="header__phones">
+                        <img src="assets/img/icons/calling.svg" alt="">
+                        <div class="header__phones-wrap">
+                            <p class="header__phones-text">Бесплатная консультация, 24/7</p>
+                            <a href="tel:89282923058" class="header__phone">8 (928) 292-30-58 </a>
+                        </div>
+                    </div>
+                    <ul class="header__socials socials">
+                        <li class="socials__item social">
+                            <a href="https://api.whatsapp.com/send/?phone=79034375957" target="_blank" class="social__link">
+                                <img src="assets/img/icons/wha.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="socials__item social">
+                            <a href="https://t.me/euro_clinic_marina_bot" target="_blank" class="social__link">
+                                <img src="assets/img/icons/tg.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="header__btn btn popup-btn hover__btn" data-path="form">
+                        Вызвать нарколога
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="header__bottom-container container">
+                <div class="header__navigation-close">
+                    <button class="header__navigation-close-btn close-menu">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L18 18M2 18L18 2" stroke="white" stroke-opacity="0.9" stroke-width="4"
+                                stroke-linecap="round" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="header__navigation">
+                    <div class="header__navigation-wrapper">
+                        <button class="header__nav-btn">
+                            <span class="header__nav-btn-text">
+                                Услуги
+                            </span>
+                            <span class="header__nav-btn-decor">
+                                <span class="header__nav-btn-decor-line"></span>
+                            </span>
+                            <span class="header__nav-btn-arrow">
+                                <svg width="12" height="7" viewBox="0 0 12 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.1414 0C11.8717 0 12.2531 0.862765 11.8125 1.42015L11.7474 1.49365L6.60443 6.74374C6.45683 6.8944 6.26045 6.9849 6.05214 6.99827C5.84383 7.01165 5.63789 6.94697 5.47297 6.81637L5.3924 6.74374L0.249434 1.49365L0.17829 1.4114L0.132003 1.34402L0.0857164 1.26002L0.0711445 1.22852L0.0480012 1.1699L0.020572 1.07539L0.0120002 1.02902L0.0034288 0.976517L0 0.926641L0 0.823389L0.0042859 0.772639L0.0120002 0.720138L0.020572 0.674637L0.0480012 0.580135L0.0711445 0.521509L0.131146 0.406007L0.186861 0.327255L0.249434 0.25638L0.330007 0.183753L0.396009 0.136503L0.478296 0.0892518L0.509154 0.0743763L0.566584 0.0507505L0.659157 0.0227504L0.704586 0.0140001L0.756016 0.00524971L0.804874 0.0017499L11.1414 0Z"
+                                        fill="white" fill-opacity="0.9" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="header__navigation-dropdown">
+                            <ul class="header__navigation-content">
+                                <li class="header__navigation-content-item">
+                                    <button class="header__navigation-tab">
+                                        <span class="header__navigation-tab-icon"
+                                            data-src="/netcat_template/template/domains/assets/img/icons/menu-2.svg"
+                                            style="-webkit-mask-image: url('/netcat_template/template/domains/assets/img/icons/menu-2.svg');mask-image: url('/netcat_template/template/domains/assets/img/icons/menu-2.svg');"></span>
+                                        <span class="header__navigation-tab-text">
+                                            Лечение алкоголизма </span>
+                                        <img src="assets/img/icons/menu-mobile-arrow.svg" alt="" aria-label="presentation"
+                                            class="header__navigation-tab-arrow">
+                                    </button>
+                                    <ul class="header__navigation-list">
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-alkogolizma/" class="header__navigation-nav-link">
+                                                Лечение алкоголизма </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-alkogolizma/na-domu/" class="header__navigation-nav-link">
+                                                Лечение алкоголизма на дому </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-alkogolizma/v-stacionare/"
+                                                class="header__navigation-nav-link">
+                                                Лечение алкоголизма в стационаре </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-alkogolizma/hronicheskogo/"
+                                                class="header__navigation-nav-link">
+                                                Лечение хронического алкоголизма </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-alkogolizma/konfidencialno/"
+                                                class="header__navigation-nav-link">
+                                                Анонимное лечение алкоголизма </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-alkogolizma/prinuditelno/"
+                                                class="header__navigation-nav-link">
+                                                Принудительное лечение алкоголизма </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-alkogolizma/lechenie-pivnogo-alkogolizma/"
+                                                class="header__navigation-nav-link">
+                                                Лечение пивного алкоголизма </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-alkogolizma/lechenie-zhenskogo-alkogolizma/"
+                                                class="header__navigation-nav-link">
+                                                Лечение женского алкоголизма </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-alkogolizma/lechenie-podrostkovogo-alkogolizma/"
+                                                class="header__navigation-nav-link">
+                                                Лечение подросткового алкоголизма </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-alkogolizma/lechenie-v-pozhilom-vozraste/"
+                                                class="header__navigation-nav-link">
+                                                Лечение алкоголизма в пожилом возрасте </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-alkogolizma/chastnyy-vytrezvitel/"
+                                                class="header__navigation-nav-link">
+                                                Частный вытрезвитель </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__navigation-content-item">
+                                    <button class="header__navigation-tab">
+                                        <span class="header__navigation-tab-icon"
+                                            data-src="/netcat_template/template/domains/assets/img/icons/menu-1.svg"
+                                            style="-webkit-mask-image: url('/netcat_template/template/domains/assets/img/icons/menu-1.svg');mask-image: url('/netcat_template/template/domains/assets/img/icons/menu-1.svg');"></span>
+                                        <span class="header__navigation-tab-text">
+                                            Вывод из запоя </span>
+                                        <img src="assets/img/icons/menu-mobile-arrow.svg" alt="" aria-label="presentation"
+                                            class="header__navigation-tab-arrow">
+                                    </button>
+                                    <ul class="header__navigation-list">
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/vivod-iz-zapoya/" class="header__navigation-nav-link">
+                                                Вывод из запоя </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/vivod-iz-zapoya/na-domu/" class="header__navigation-nav-link">
+                                                Вывод из запоя на дому </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/vivod-iz-zapoya/kapelnica-na-domu/"
+                                                class="header__navigation-nav-link">
+                                                Капельница от запоя на дому </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/vivod-iz-zapoya/kapelnitsa-ot-alkogolya/"
+                                                class="header__navigation-nav-link">
+                                                Капельница от алкоголя </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/vivod-iz-zapoya/kapelnitsa-ot-pohmelya/"
+                                                class="header__navigation-nav-link">
+                                                Капельница от похмелья </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/vivod-iz-zapoya/detoksikatsiya-ot-alkogolya/"
+                                                class="header__navigation-nav-link">
+                                                Детоксикация от алкоголя </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/vivod-iz-zapoya/lechenie-beloy-goryachki/"
+                                                class="header__navigation-nav-link">
+                                                Лечение белой горячки </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__navigation-content-item">
+                                    <button class="header__navigation-tab">
+                                        <span class="header__navigation-tab-icon"
+                                            data-src="/netcat_template/template/domains/assets/img/icons/menu-3.svg"
+                                            style="-webkit-mask-image: url('/netcat_template/template/domains/assets/img/icons/menu-3.svg');mask-image: url('/netcat_template/template/domains/assets/img/icons/menu-3.svg');"></span>
+                                        <span class="header__navigation-tab-text">
+                                            Кодирование от алкоголизма </span>
+                                        <img src="assets/img/icons/menu-mobile-arrow.svg" alt="" aria-label="presentation"
+                                            class="header__navigation-tab-arrow">
+                                    </button>
+                                    <ul class="header__navigation-list">
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/" class="header__navigation-nav-link">
+                                                Кодирование от алкоголизма </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/na-domu/"
+                                                class="header__navigation-nav-link">
+                                                Кодирование от алкоголизма на дому </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/dvoynoy-blok/"
+                                                class="header__navigation-nav-link">
+                                                Двойной Блок </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/kodirovanie-troynoy-blok-ot-alkogolizma/"
+                                                class="header__navigation-nav-link">
+                                                Тройной блок </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/naltrekson/"
+                                                class="header__navigation-nav-link">
+                                                Налтрексоном </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/ukolom/"
+                                                class="header__navigation-nav-link">
+                                                Уколом </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/dovzhenko/"
+                                                class="header__navigation-nav-link">
+                                                Метод Довженко </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/gipnozom/"
+                                                class="header__navigation-nav-link">
+                                                Гипнозом </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/kodirovanie-esperal/"
+                                                class="header__navigation-nav-link">
+                                                Эспераль </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/vshivanie-ampuly/"
+                                                class="header__navigation-nav-link">
+                                                Вшивание ампулы </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/torpedo/"
+                                                class="header__navigation-nav-link">
+                                                Торпедо </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/akvilong/"
+                                                class="header__navigation-nav-link">
+                                                Аквилонг </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/algominal/"
+                                                class="header__navigation-nav-link">
+                                                Алгоминалом </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/kodirovanie-alkoblokada/"
+                                                class="header__navigation-nav-link">
+                                                «Алкоблокада» </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/aktopleks-effektivnyy-preparat-protiv-alkogolizma/"
+                                                class="header__navigation-nav-link">
+                                                Актоплекс </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/vitamerts-depo-luchshiy-preparat-dlya-lecheniya-alkogolizma/"
+                                                class="header__navigation-nav-link">
+                                                Витамерц Депо </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/kodirovanie-sitmst/"
+                                                class="header__navigation-nav-link">
+                                                SIT/MST </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/kodirovanie-kolme/"
+                                                class="header__navigation-nav-link">
+                                                Колме </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/kodirovanie-selinkro/"
+                                                class="header__navigation-nav-link">
+                                                Селинкро </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/elektroimpulsnaya-terapiya/"
+                                                class="header__navigation-nav-link">
+                                                Электроимпульсная терапия </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/kodirovanie-tokom-ot-alkogolizma/"
+                                                class="header__navigation-nav-link">
+                                                Током </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/kodirovanie-teturamom/"
+                                                class="header__navigation-nav-link">
+                                                Тетурамом </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/kodirovanie-igloukalyvaniem-ot-alkogolizma/"
+                                                class="header__navigation-nav-link">
+                                                Иглоукалыванием </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/kodirovanie-vivitrolom/"
+                                                class="header__navigation-nav-link">
+                                                Вивитролом </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/anonimno/"
+                                                class="header__navigation-nav-link">
+                                                Анонимное кодирование </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/prinuditelno/"
+                                                class="header__navigation-nav-link">
+                                                Принудительное кодирование </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/kodirovanie-ot-alkogolizma-na-3-goda/"
+                                                class="header__navigation-nav-link">
+                                                Кодирование от алкоголизма на 3 года </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/kodirovanie-ot-alkogolizma-na-5-let/"
+                                                class="header__navigation-nav-link">
+                                                Кодирование от алкоголизма на 5 лет </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/kodirovanie-ot-alkogolizma/snyatie-kodirovki/"
+                                                class="header__navigation-nav-link">
+                                                Cнятие кодировки </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__navigation-content-item">
+                                    <button class="header__navigation-tab">
+                                        <span class="header__navigation-tab-icon" data-src=""
+                                            style="-webkit-mask-image: url('');mask-image: url('');"></span>
+                                        <span class="header__navigation-tab-text">
+                                            Наркологическая помощь </span>
+                                        <img src="assets/img/icons/menu-mobile-arrow.svg" alt="" aria-label="presentation"
+                                            class="header__navigation-tab-arrow">
+                                    </button>
+                                    <ul class="header__navigation-list">
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/narkologicheskaya-pomosch/" class="header__navigation-nav-link">
+                                                Наркологическая помощь </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/narkologicheskaya-pomosch/na-dom/"
+                                                class="header__navigation-nav-link">
+                                                Нарколог на дом </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/narkologicheskaya-pomosch/kruglosutochno/"
+                                                class="header__navigation-nav-link">
+                                                Круглосуточная наркологическая помощь </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/narkologicheskaya-pomosch/narkologicheskiy-tsentr/"
+                                                class="header__navigation-nav-link">
+                                                Наркологический центр </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/narkologicheskaya-pomosch/telefon-doveriya/"
+                                                class="header__navigation-nav-link">
+                                                Телефон доверия </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__navigation-content-item">
+                                    <button class="header__navigation-tab">
+                                        <span class="header__navigation-tab-icon" data-src=""
+                                            style="-webkit-mask-image: url('');mask-image: url('');"></span>
+                                        <span class="header__navigation-tab-text">
+                                            Лечение наркомании </span>
+                                        <img src="assets/img/icons/menu-mobile-arrow.svg" alt="" aria-label="presentation"
+                                            class="header__navigation-tab-arrow">
+                                    </button>
+                                    <ul class="header__navigation-list">
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/" class="header__navigation-nav-link">
+                                                Лечение наркомании </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-extazi/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от экстази </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-fenobarbitala/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от фенобарбитала </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/snyatie-lomki/"
+                                                class="header__navigation-nav-link">
+                                                Снятие ломки </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/ubod/" class="header__navigation-nav-link">
+                                                УБОД </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/ot-spaysa/" class="header__navigation-nav-link">
+                                                Лечение от спайса </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-soli/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от соли </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-liriki/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от лирики </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-marihuany/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от марихуаны </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-mefedrona/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от мефедрона </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-lsd/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от ЛСД </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-amfetamina/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от амфетамина </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-kodeinovoy-zavisimosti/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от кодеина </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-kokaina/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от кокаина </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">header__open-menu open-menu
+                                            <a href="/lechenie-narkomanii/lechenie-ot-opiuma/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от опиума </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-dezomorfina/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от дезоморфина </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-geroina/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от героина </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-butirata/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от бутирата </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-efedrina/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от эфедрина </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-fenazepama/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от феназепама </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-tramadola/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от трамадола </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-metadona/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от метадона </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/lechenie-ot-ketamina/"
+                                                class="header__navigation-nav-link">
+                                                Лечение от кетамина </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/narkologicheskiy-dispanser/"
+                                                class="header__navigation-nav-link">
+                                                Наркологический диспансер </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/narkologicheskiy-tsentr/"
+                                                class="header__navigation-nav-link">
+                                                Наркологический центр </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/prinuditelnoe-lechenie-narkomanii/"
+                                                class="header__navigation-nav-link">
+                                                Принудительное лечение наркомании </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/lechenie-narkomanii/konsultatsiya-narkologa/"
+                                                class="header__navigation-nav-link">
+                                                Консультация нарколога </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__navigation-content-item">
+                                    <button class="header__navigation-tab">
+                                        <span class="header__navigation-tab-icon" data-src=""
+                                            style="-webkit-mask-image: url('');mask-image: url('');"></span>
+                                        <span class="header__navigation-tab-text">
+                                            Реабилитационный центр </span>
+                                        <img src="assets/img/icons/menu-mobile-arrow.svg" alt="" aria-label="presentation"
+                                            class="header__navigation-tab-arrow">
+                                    </button>
+                                    <ul class="header__navigation-list">
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/reabilitatsionniy-tsentr/" class="header__navigation-nav-link">
+                                                Реабилитационный центр </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/reabilitatsionniy-tsentr/reabilitacia/"
+                                                class="header__navigation-nav-link">
+                                                Реабилитация наркозависимых </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/reabilitatsionniy-tsentr/anonimno/"
+                                                class="header__navigation-nav-link">
+                                                Анонимная реабилитация наркозависимых </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/reabilitatsionniy-tsentr/prinuditelno/"
+                                                class="header__navigation-nav-link">
+                                                Принудительная реабилитация </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/reabilitatsionniy-tsentr/reabilitatsiya-alkogolikov/"
+                                                class="header__navigation-nav-link">
+                                                Реабилитация алкоголиков </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/reabilitatsionniy-tsentr/12-shagov/"
+                                                class="header__navigation-nav-link">
+                                                Реабилитация 12 шагов </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/reabilitatsionniy-tsentr/shichko/"
+                                                class="header__navigation-nav-link">
+                                                Реабилитация по методике Шичко </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/reabilitatsionniy-tsentr/reabilitatsiya-po-programme-day-top/"
+                                                class="header__navigation-nav-link">
+                                                Реабилитация по программе Day Top </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/reabilitatsionniy-tsentr/minnesotskaya-model/"
+                                                class="header__navigation-nav-link">
+                                                Миннесотская модель реабилитации </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__navigation-content-item">
+                                    <button class="header__navigation-tab">
+                                        <span class="header__navigation-tab-icon" data-src=""
+                                            style="-webkit-mask-image: url('');mask-image: url('');"></span>
+                                        <span class="header__navigation-tab-text">
+                                            Психиатрия </span>
+                                        <img src="assets/img/icons/menu-mobile-arrow.svg" alt="" aria-label="presentation"
+                                            class="header__navigation-tab-arrow">
+                                    </button>
+                                    <ul class="header__navigation-list">
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/" class="header__navigation-nav-link">
+                                                Психиатрия </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-psihicheskih-rasstroystv/"
+                                                class="header__navigation-nav-link">
+                                                Лечение психических расстройств </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/vyzov-psihiatra-na-dom/"
+                                                class="header__navigation-nav-link">
+                                                Вызов психиатра на дом </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/skoraya-psihiatricheskaya-pomosch/"
+                                                class="header__navigation-nav-link">
+                                                Скорая психиатрическая помощь </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/vrach-psihoterapevt/" class="header__navigation-nav-link">
+                                                Прием врача-психотерапевта </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/konsultatsiya-psihiatra/"
+                                                class="header__navigation-nav-link">
+                                                Консультация психиатра </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/priem-vracha-psihiatra/"
+                                                class="header__navigation-nav-link">
+                                                Приём врача-психиатра </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-ipohondrii/" class="header__navigation-nav-link">
+                                                Лечение ипохондрии </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-manii-presledovaniya/"
+                                                class="header__navigation-nav-link">
+                                                Лечение мании преследования </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/diagnostika-i-lechenie-sdvg/"
+                                                class="header__navigation-nav-link">
+                                                Диагностика и лечение СДВГ </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-bipolyarnoy-gipomanii/"
+                                                class="header__navigation-nav-link">
+                                                Лечение биполярной гипомании </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-klaustrafobii/"
+                                                class="header__navigation-nav-link">
+                                                Лечение клаустрафобии </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-bulimii-i-anoreksii/"
+                                                class="header__navigation-nav-link">
+                                                Лечение булимии и анорексии </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-hronicheskogo-stressa/"
+                                                class="header__navigation-nav-link">
+                                                Лечение хронического стресса </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-razdrazhitelnosti/"
+                                                class="header__navigation-nav-link">
+                                                Лечение раздражительности </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-enkopreza/" class="header__navigation-nav-link">
+                                                Лечение энкопреза </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-psihopatii/" class="header__navigation-nav-link">
+                                                Лечение психопатии </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-distimii/" class="header__navigation-nav-link">
+                                                Лечение дистимии </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-enureza/" class="header__navigation-nav-link">
+                                                Лечение энуреза </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-migreni/" class="header__navigation-nav-link">
+                                                Лечение мигрени </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-dementsii/" class="header__navigation-nav-link">
+                                                Лечение деменции </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-giperaktivnosti/"
+                                                class="header__navigation-nav-link">
+                                                Лечение гиперактивности </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-nevrastenii/"
+                                                class="header__navigation-nav-link">
+                                                Лечение неврастении </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-nevrozov/" class="header__navigation-nav-link">
+                                                Лечение неврозов </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-depressii/" class="header__navigation-nav-link">
+                                                Лечение депрессии </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-sozavisimosti/"
+                                                class="header__navigation-nav-link">
+                                                Лечение созависимости </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-panicheskih-atak/"
+                                                class="header__navigation-nav-link">
+                                                Лечение панических атак </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-ptsr/" class="header__navigation-nav-link">
+                                                Лечение ПТСР </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-okr/" class="header__navigation-nav-link">
+                                                Лечение ОКР </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-psihoza/" class="header__navigation-nav-link">
+                                                Лечение психоза </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/lechenie-shizofrenii/"
+                                                class="header__navigation-nav-link">
+                                                Лечение шизофрении </a>
+                                        </li>
+                                        <li class="header__navigation-nav-item">
+                                            <a href="/psihiatriya/psihiatricheskaya-klinika/"
+                                                class="header__navigation-nav-link">
+                                                Психиатрическая клиника </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="/price/" class="menu__link">Цены</a></li>
+                        <li class="menu__item"><a href="/documents/" class="menu__link">Документы</a></li>
+                        <li class="menu__item"><a href="/otzivy/" class="menu__link">Отзывы</a></li>
+                        <li class="menu__item"><a href="/voprosy/" class="menu__link">Вопросы</a></li>
+                        <li class="menu__item"><a href="/aktsii/" class="menu__link">Акции</a></li>
+                        <li class="menu__item"><a href="/vrachi/" class="menu__link">Врачи</a></li>
+                        <li class="menu__item"><a href="/vrachi/" class="menu__link">Статьи</a></li>
+                        <li class="menu__item"><a href="/contacts/" class="menu__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <form action="/search/" method="post" class="header__search search">
+                    <label class="search__item">
+                        <input name="s" type="text" class="search__input" placeholder="Поиск">
+                    </label>
+                    <button type="submit" class="search__btn"></button>
+                </form>
+                <div class="header__bottom-mobile">
+                    <button class="header__mobile-btn btn popup-btn" data-path="form">
+                        Вызвать нарколога
+                    </button>
+                    <div class="header__mobile-wrapper">
+                        <div class="header__mobile-connection">
+                            <button class="header__mobile-address popup-btn" data-path="city">
+                                <svg class="header__mobile-address-icon" width="18" height="21" viewBox="0 0 18 21"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6 9.28991C6 10.0647 6.31607 10.8077 6.87868 11.3556C7.44129 11.9034 8.20435 12.2112 9 12.2112C9.79565 12.2112 10.5587 11.9034 11.1213 11.3556C11.6839 10.8077 12 10.0647 12 9.28991C12 8.51513 11.6839 7.77208 11.1213 7.22422C10.5587 6.67637 9.79565 6.36859 9 6.36859C8.20435 6.36859 7.44129 6.67637 6.87868 7.22422C6.31607 7.77208 6 8.51513 6 9.28991Z"
+                                        stroke="white" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M14.657 14.7985L10.414 18.9303C10.039 19.2951 9.53058 19.5 9.0005 19.5C8.47042 19.5 7.96201 19.2951 7.587 18.9303L3.343 14.7985C2.22422 13.7091 1.46234 12.321 1.15369 10.8098C0.845043 9.2987 1.00349 7.73237 1.60901 6.30892C2.21452 4.88547 3.2399 3.66884 4.55548 2.81286C5.87107 1.95688 7.41777 1.5 9 1.5C10.5822 1.5 12.1289 1.95688 13.4445 2.81286C14.7601 3.66884 15.7855 4.88547 16.391 6.30892C16.9965 7.73237 17.155 9.2987 16.8463 10.8098C16.5377 12.321 15.7758 13.7091 14.657 14.7985Z"
+                                        stroke="white" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span class="header__mobile-address-text">
+                                    улица Красная, 103 </span>
+                            </button>
+                            <div class="header__mobile-phones">
+                                <a href="tel:89282923058" class="header__mobile-phone">
+                                    8 (928) 292-30-58 </a>
+                            </div>
+                        </div>
+                        <ul class="header__mobile-socials socials">
+                            <li class="socials__item social">
+                                <a href="https://api.whatsapp.com/send/?phone=79034375957" target="_blank"
+                                    class="social__link">
+                                    <img src="assets/img/icons/wha.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="socials__item social">
+                                <a href="https://t.me/euro_clinic_marina_bot" target="_blank" class="social__link">
+                                    <img src="assets/img/icons/tg.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>    <main class="main">
+    <div class="container">
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs__item">
+                <a href="/" class="breadcrumbs__link">
+                    Главная
+                </a>
+            </li>
+            <li class="breadcrumbs__item breadcrumbs__item_active"><span class="breadcrumbs__link">Акции</span></li>
+        </ul>
+    </div>
+    <section class="aktsii-page">
+        <div class="aktsii-page__container container">
+            <h1 class="aktsii-page__title general__title-h1 general__title-padding">
+                Акции медицинской клиники «Наркология Евро-Клиник» в Краснодаре
+            </h1>
+            <div class="aktsii-page__wrapper">
+                <div class="aktsii-page__items">
+                    <div class="aktsii-page__item">
+                        <div class="aktsii-page__item-top">
+                            <div class="aktsii-page__item-picture">
+                                <picture>
+                                    <source srcset="assets/img/icons/pediatra.webp" type="image/webp">
+                                    <img src="assets/img/icons/pediatra.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="aktsii-page__item-text">
+                                Скидка 25%
+                                <span>На повторную детоксикацию организма</span>
+                            </div>
+                        </div>
+                        <div class="aktsii-page__item-btns">
+                            <button class="general__btn btn popup-btn hover__btn" data-path="form">
+                                Вызвать нарколога
+                            </button>
+                        </div>
+                    </div>
+                    <div class="aktsii-page__item">
+                        <div class="aktsii-page__item-top">
+                            <div class="aktsii-page__item-picture">
+                                <picture>
+                                    <source srcset="assets/img/icons/pediatra.webp" type="image/webp">
+                                    <img src="assets/img/icons/pediatra.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="aktsii-page__item-text">
+                                Скидка 25%
+                                <span>На повторную детоксикацию организма</span>
+                            </div>
+                        </div>
+                        <div class="aktsii-page__item-btns">
+                            <button class="general__btn btn popup-btn hover__btn" data-path="form">
+                                Вызвать нарколога
+                            </button>
+                        </div>
+                    </div>
+                    <div class="aktsii-page__item">
+                        <div class="aktsii-page__item-top">
+                            <div class="aktsii-page__item-picture">
+                                <picture>
+                                    <source srcset="assets/img/icons/pediatra.webp" type="image/webp">
+                                    <img src="assets/img/icons/pediatra.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="aktsii-page__item-text">
+                                Скидка 25%
+                                <span>На повторную детоксикацию организма</span>
+                            </div>
+                        </div>
+                        <div class="aktsii-page__item-btns">
+                            <button class="general__btn btn popup-btn hover__btn" data-path="form">
+                                Вызвать нарколога
+                            </button>
+                        </div>
+                    </div>
+                    <div class="aktsii-page__item">
+                        <div class="aktsii-page__item-top">
+                            <div class="aktsii-page__item-picture">
+                                <picture>
+                                    <source srcset="assets/img/icons/pediatra.webp" type="image/webp">
+                                    <img src="assets/img/icons/pediatra.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="aktsii-page__item-text">
+                                Скидка 25%
+                                <span>На повторную детоксикацию организма</span>
+                            </div>
+                        </div>
+                        <div class="aktsii-page__item-btns">
+                            <button class="general__btn btn popup-btn hover__btn" data-path="form">
+                                Вызвать нарколога
+                            </button>
+                        </div>
+                    </div>
+                    <div class="aktsii-page__item">
+                        <div class="aktsii-page__item-top">
+                            <div class="aktsii-page__item-picture">
+                                <picture>
+                                    <source srcset="assets/img/icons/pediatra.webp" type="image/webp">
+                                    <img src="assets/img/icons/pediatra.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="aktsii-page__item-text">
+                                Скидка 25%
+                                <span>На повторную детоксикацию организма</span>
+                            </div>
+                        </div>
+                        <div class="aktsii-page__item-btns">
+                            <button class="general__btn btn popup-btn hover__btn" data-path="form">
+                                Вызвать нарколога
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="footer" data-aos="fade-up" data-aos-duration="600">
+        <div class="footer__container container">
+            <div class="footer__wrapper">
+                <div class="footer__item footer__item--top">
+                    <a href="/" class="footer__logo logo">
+                        <img src="/assets/img/logo/logo.svg" alt="" class="footer__img logo__img">
+                        <p class="footer__logo-text">МЕДИЦИНСКАЯ КЛИНИКА</p>
+                    </a>
+                    <form action="/search/" method="post" class="footer__search search">
+                        <label class="search__item">
+                            <input name="s" type="text" class="search__input" placeholder="Поиск">
+                        </label>
+                        <button type="submit" class="search__btn"></button>
+                    </form>
+                    <div class="footer__socials">
+                        <ul class="footer__socials-list socials">
+                            <li class="socials__item social">
+                                <a href="https://vk.com/narkolog.kalyuzhnaya" target="_blank" class="social__link">
+                                    <picture>
+                                        <source srcset="assets/img/icons/vk.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/vk.png" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li class="socials__item social">
+                                <a href="https://t.me/euro_clinic_marina_bot" target="_blank" class="social__link">
+                                    <picture>
+                                        <source srcset="assets/img/icons/tgl.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/tgl.png" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li class="socials__item social">
+                                <a href="https://api.whatsapp.com/send/?phone=79034375957" target="_blank"
+                                    class="social__link">
+                                    <picture>
+                                        <source srcset="assets/img/icons/wha.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/wha.png" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li class="socials__item social">
+                                <a href="https://ok.ru/group/58157248151671" target="_blank" class="social__link">
+                                    <picture>
+                                        <source srcset="assets/img/icons/ok.svg" type="image/svg+xml">
+                                        <img src="assets/img/icons/ok.png" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                        </ul>
+                        <button class="footer__btn btn-submit popup-btn hover__btn" data-path="form"
+                            data-title="Записаться за прием">
+                            Записаться на прием
+                        </button>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <p class="footer__item-title">
+                        Наши услуги
+                    </p>
+                    <ul>
+                        <li><a href="/lechenie-alkogolizma/">Лечение алкоголизма в Краснодаре</a></li>
+                        <li><a href="/vivod-iz-zapoya/">Вывод из запоя в Краснодаре</a></li>
+                        <li><a href="/narkologicheskaya-pomosch/na-dom/">Нарколог на дом в Краснодаре</a></li>
+                        <li><a href="/kodirovanie-ot-alkogolizma/">Кодирование от алкоголизма в Краснодаре</a></li>
+                        <li><a href="/vivod-iz-zapoya/kapelnitsa-ot-pohmelya/">Капельница от похмелья в Краснодаре</a>
+                        </li>
+                        <li><a href="/lechenie-narkomanii/">Лечение наркомании в Краснодаре</a></li>
+                        <li><a href="/vivod-iz-zapoya/kapelnica-na-domu/">Капельница от запоя на дому в Краснодаре</a>
+                        </li>
+                        <li><a href="/narkologicheskaya-pomosch/">Наркологическая помощь в Краснодаре</a></li>
+                        <li><a href="/reabilitatsionniy-tsentr/">Реабилитационный центр</a></li>
+                        <li><a href="/vivod-iz-zapoya/na-domu/">Вывод из запоя на дому</a></li>
+                        <li><a href="/lechenie-narkomanii/snyatie-lomki/">Снятие ломки</a></li>
+                        <li><a href="/narkologicheskaya-pomosch/narkologicheskiy-tsentr/">Наркологический центр</a></li>
+                        <li><a href="/vivod-iz-zapoya/srochnyy/">Срочный вывод из запоя</a></li>
+                        <li><a href="/lechenie-alkogolizma/chastnyy-vytrezvitel/">Частный вытрезвитель</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <p class="footer__item-title">
+                        Наши услуги
+                    </p>
+                    <ul>
+                        <li><a href="/lechenie-narkomanii/ot-spaysa/">Лечение от спайса</a></li>
+                        <li><a href="/lechenie-narkomanii/ubod/">УБОД</a></li>
+                        <li><a href="/reabilitatsionniy-tsentr/reabilitacia/">Реабилитация наркозависимых</a></li>
+                        <li><a href="/reabilitatsionniy-tsentr/reabilitatsiya-alkogolikov/">Реабилитация алкоголиков</a>
+                        </li>
+                        <li><a href="/reabilitatsionniy-tsentr/12-shagov/">Реабилитация 12 шагов</a></li>
+                        <li><a href="/psihiatriya/lechenie-psihicheskih-rasstroystv/">Лечение психических
+                                расстройств</a></li>
+                        <li><a href="/psihiatriya/konsultatsiya-psihiatra/">Консультация психиатра</a></li>
+                        <li><a href="/psihiatriya/priem-vracha-psihiatra/">Приём врача-психиатра</a></li>
+                        <li><a href="/psihiatriya/vyzov-psihiatra-na-dom/">Вызов психиатра на дом</a></li>
+                        <li><a href="/psihiatriya/vrach-psihoterapevt/">Врач-психотерапевт</a></li>
+                        <li><a href="/kodirovanie-ot-alkogolizma/dvoynoy-blok/">Кодирование Двойной Блок</a></li>
+                        <li><a href="/kodirovanie-ot-alkogolizma/naltrekson/">Кодирование Налтрексон</a></li>
+                        <li><a href="/kodirovanie-ot-alkogolizma/kodirovanie-esperal/">Кодирование Эспераль</a></li>
+                        <li><a href="/kodirovanie-ot-alkogolizma/torpedo/">Кодирование Торпедо</a></li>
+                        <li><a href="/kodirovanie-ot-alkogolizma/dovzhenko/">Кодирование Довженко</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <p class="footer__item-title">
+                        Наши услуги
+                    </p>
+                    <ul>
+                        <li><a href="/lechenie-narkomanii/ot-spaysa/">Лечение от спайса</a></li>
+                        <li><a href="/lechenie-narkomanii/ubod/">УБОД</a></li>
+                        <li><a href="/reabilitatsionniy-tsentr/reabilitacia/">Реабилитация наркозависимых</a></li>
+                        <li><a href="/reabilitatsionniy-tsentr/reabilitatsiya-alkogolikov/">Реабилитация алкоголиков</a>
+                        </li>
+                        <li><a href="/reabilitatsionniy-tsentr/12-shagov/">Реабилитация 12 шагов</a></li>
+                        <li><a href="/psihiatriya/lechenie-psihicheskih-rasstroystv/">Лечение психических
+                                расстройств</a></li>
+                        <li><a href="/psihiatriya/konsultatsiya-psihiatra/">Консультация психиатра</a></li>
+                        <li><a href="/psihiatriya/priem-vracha-psihiatra/">Приём врача-психиатра</a></li>
+                        <li><a href="/psihiatriya/vyzov-psihiatra-na-dom/">Вызов психиатра на дом</a></li>
+                        <li><a href="/psihiatriya/vrach-psihoterapevt/">Врач-психотерапевт</a></li>
+                        <li><a href="/kodirovanie-ot-alkogolizma/dvoynoy-blok/">Кодирование Двойной Блок</a></li>
+                        <li><a href="/kodirovanie-ot-alkogolizma/naltrekson/">Кодирование Налтрексон</a></li>
+                        <li><a href="/kodirovanie-ot-alkogolizma/kodirovanie-esperal/">Кодирование Эспераль</a></li>
+                        <li><a href="/kodirovanie-ot-alkogolizma/torpedo/">Кодирование Торпедо</a></li>
+                        <li><a href="/kodirovanie-ot-alkogolizma/dovzhenko/">Кодирование Довженко</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <p class="footer__item-title">
+                        Полезное
+                    </p>
+                    <ul>
+                        <li><a href="/price/">Цены</a></li>
+                        <li><a href="/contacts/">Контакты</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="/stati/">Статьи</a></li>
+                        <li><a href="/documents/">Документы</a></li>
+                        <li><a href="/otzivy/">Отзывы</a></li>
+                        <li><a href="/vrachi/">Врачи</a></li>
+                        <li><a href="/voprosy/">Вопросы</a></li>
+                        <li><a href="/aktsii/">Акции</a></li>
+                        <li><a href="/stati/">Блог</a></li>
+                        <li><a href="/sitemap/">Карта сайта</a></li>
+                        <li><a href="/politika-konfidentsialnosti/">Политика конфиденциальности</a></li>
+                        <!--{C}%3C!%2D%2Dnoindex%2D%2D%3E-->
+                        <li><a href="/policy/">Пользовательское соглашение</a></li>
+                        <li><a href="/nasha-geografiya/">Наша география</a></li>
+                        <li><a href="/karta-sayta-stranitsa/">Карта сайта (страница)</a></li>
+                        <!--{C}%3C!%2D%2D%2Fnoindex%2D%2D%3E-->
+                    </ul>
+                </div>
+    
+            </div>
+            <div class="footer__btns-group">
+                <a href="https://kotelniki.euro-clinic.ru" class="footer__btns-item btn-submit hover__btn">
+                    <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19 8.5C19.5523 8.5 20 8.05228 20 7.5C20 6.94772 19.5523 6.5 19 6.5L19 8.5ZM0.292892 6.79289C-0.0976315 7.18342 -0.0976314 7.81658 0.292893 8.20711L6.65686 14.5711C7.04738 14.9616 7.68054 14.9616 8.07107 14.5711C8.46159 14.1805 8.46159 13.5474 8.07107 13.1569L2.41421 7.5L8.07107 1.84315C8.46159 1.45262 8.46159 0.819457 8.07107 0.428933C7.68054 0.0384088 7.04738 0.0384088 6.65685 0.428933L0.292892 6.79289ZM19 6.5L1 6.5L1 8.5L19 8.5L19 6.5Z"
+                            fill="#1C63EE" />
+                    </svg>
+                    Котельники
+                </a>
+                <a href="https://moskovskiy.euro-clinic.ru" class="footer__btns-item btn-submit hover__btn">
+                    Московский
+                    <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1 6.5C0.447715 6.5 0 6.94772 0 7.5C0 8.05228 0.447715 8.5 1 8.5L1 6.5ZM19.7071 8.20711C20.0976 7.81658 20.0976 7.18342 19.7071 6.79289L13.3431 0.428932C12.9526 0.0384078 12.3195 0.0384078 11.9289 0.428932C11.5384 0.819457 11.5384 1.45262 11.9289 1.84315L17.5858 7.5L11.9289 13.1569C11.5384 13.5474 11.5384 14.1805 11.9289 14.5711C12.3195 14.9616 12.9526 14.9616 13.3431 14.5711L19.7071 8.20711ZM1 8.5L19 8.5V6.5L1 6.5L1 8.5Z"
+                            fill="#1C63EE" />
+                    </svg>
+                </a>
+            </div>
+            <div class="footer__copyright">
+                <p class="footer__copyright-text">
+                    Вся представленная на сайте информация не служит для постановки диагноза и назначения лечения. Она
+                    имеет только информационный характер и не является ни при каких условиях публичной офертой. Посетите
+                    своего лечащего врача.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <div class="background-close"></div>
+    <div class="popup active" data-target="form">
+        <div class="popup__body">
+            <div class="popup__content">
+                <button class="popup__close close-popup">
+                    <img src="assets/img/full/close-popup-white.svg" alt="" aria-label="presentation">
+                </button>
+                <form class="form-popup__wrapper form">
+                    <p class="popup__title">Вызвать нарколога</p>
+                    <input name="catalogue" type="hidden" value="1">
+                    <input name="cc" type="hidden" value="2">
+                    <input name="sub" type="hidden" value="8">
+                    <input name="posting" type="hidden" value="1">
+                    <input name="f_urlMessage" type="hidden" value="https://euro-clinic.ru/aktsii/">
+                    <input name="f_title_url_message" type="hidden"
+                        value="Акции - Медицинская клиника «Наркология Евро-Клиник» в Краснодаре">
+                    <div class="form-popup__fields">
+                        <label class="form-popup__label">
+                            <input name="f_name" type="text" placeholder="Ваше имя*" class="form-popup__input form-input"
+                                required="">
+                        </label>
+                        <label class="form-popup__label">
+                            <input name="f_phone" type="tel" placeholder="Номер телефона*"
+                                class="form-popup__input form-input" required="">
+                        </label>
+                        <label class="form-popup__label">
+                            <textarea name="f_message" placeholder="Напишите сообщение врачу"
+                                class="form-popup__input form-input"></textarea>
+                        </label>
+                    </div>
+                    <button type="submit" class="form-popup__btn hover__btn btn-submit">
+                        Отправить
+                    </button><!--noindex-->
+                    <label class="form__custom-checkbox">
+                        <input type="checkbox" checked="true">
+                        <span class="form__checkmark"></span>
+                        <span class="form-popup__policy form-policy">Нажимая кнопку я соглашаюсь
+                            с политикой конфиденциальности
+                            и пользовательским соглашением</span>
+                    </label>
+                    <input name="f_clientID" type="hidden" value="1741244565980815397">
+                </form>
+            </div>
+    
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>
